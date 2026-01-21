@@ -1,0 +1,39 @@
+{
+  "session_start": "2026-01-21T02:56:39.172602",
+  "session_duration_seconds": 82.815358,
+  "total_slots": 8,
+  "slots": [
+    {
+      "slot_id": 0,
+      "current_state": "FREE",
+      "total_occupied_duration_seconds": 0.0,
+      "total_free_duration_seconds": 57.09,
+      "utilization_percentage": 0.0,
+      "total_state_changes": 0,
+      "total_occupancy_events": 0,
+      "recent_events": []
+    },
+    {
+      "slot_id": 1,
+      "current_state": "FREE",
+      "total_occupied_duration_seconds": 0.0,
+      "total_free_duration_seconds": 52.08,
+      "utilization_percentage": 0.0,
+      "total_state_changes": 0,
+      "total_occupancy_events": 0,
+      "recent_events": []
+    },
+    {
+      "slot_id": 2,
+      "current_state": "FREE",
+      "total_occupied_duration_seconds": 14.64,
+      "total_free_duration_seconds": 31.33,
+      "utilization_percentage": 31.84,
+      "total_state_changes": 2,
+      "total_occupancy_events": 1,
+      "recent_events": [
+        {
+          "timestamp": "2026-01-21T02:57:16.999558",
+          "from_state": "FREE",
+          "to_state": "OCCUPIED",
+          "confidence": 
