@@ -1,10 +1,10 @@
 # 🚗 Adaptive Smart Parking Detection System
 
-A research-grade parking occupancy detection system using YOLOv8, featuring adaptive geometric refinement and temporal confidence aggregation. This system is designed for high-resolution CCTV applications where stability, occlusion robustness, and camera-drift compensation are critical.
+A parking occupancy detection system using YOLOv8, featuring adaptive geometric refinement and temporal confidence aggregation. This system is designed for high-resolution CCTV applications where stability, occlusion robustness, and camera-drift compensation are critical.
 
 ## 🌟 Key Features
 
-### 🧠 Research-Grade Algorithms
+### 🧠  Algorithms
 - **TCOD (Temporal Confidence-Based Occupancy)**: Uses Exponential Smoothing ($S_t = \lambda S_{t-1} + (1-\lambda)s_t$) to eliminate state flickering.
 - **Double-Threshold Hysteresis**: Prevents rapid state switching using an "Uncertainty Zone" [0.4 - 0.6].
 - **Dynamic Polygon Refinement (DPR)**: Automatically adapts parking slot boundaries to account for camera shake or drift based on vehicle centroid history.
